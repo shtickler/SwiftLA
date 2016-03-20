@@ -16,7 +16,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2388EED1C9F2E8E00156D3F"
+               BlueprintIdentifier = "C2911A2C1C9F689300C367FD"
                BuildableName = "SwiftLA.xctest"
                BlueprintName = "SwiftLA"
                ReferencedContainer = "container:SwiftLA.xcodeproj">

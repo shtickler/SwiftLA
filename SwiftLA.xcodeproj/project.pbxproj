@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C2388EEE1C9F2E8E00156D3F /* SwiftLA.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLA.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2388EF31C9F2E8E00156D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2911A2D1C9F689300C367FD /* SwiftLA.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLA.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2911A321C9F689300C367FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2388EEB1C9F2E8E00156D3F /* Frameworks */ = {
+		C2911A2A1C9F689300C367FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -22,26 +22,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2388EE31C9F2DF800156D3F = {
+		C2911A221C9F688700C367FD = {
 			isa = PBXGroup;
 			children = (
-				C2388EF01C9F2E8E00156D3F /* SwiftLA */,
-				C2388EEF1C9F2E8E00156D3F /* Products */,
+				C2911A2F1C9F689300C367FD /* SwiftLA */,
+				C2911A2E1C9F689300C367FD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C2388EEF1C9F2E8E00156D3F /* Products */ = {
+		C2911A2E1C9F689300C367FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2388EEE1C9F2E8E00156D3F /* SwiftLA.xctest */,
+				C2911A2D1C9F689300C367FD /* SwiftLA.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2388EF01C9F2E8E00156D3F /* SwiftLA */ = {
+		C2911A2F1C9F689300C367FD /* SwiftLA */ = {
 			isa = PBXGroup;
 			children = (
-				C2388EF31C9F2E8E00156D3F /* Info.plist */,
+				C2911A321C9F689300C367FD /* Info.plist */,
 			);
 			path = SwiftLA;
 			sourceTree = "<group>";
@@ -49,13 +49,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2388EED1C9F2E8E00156D3F /* SwiftLA */ = {
+		C2911A2C1C9F689300C367FD /* SwiftLA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2388EF61C9F2E8E00156D3F /* Build configuration list for PBXNativeTarget "SwiftLA" */;
+			buildConfigurationList = C2911A331C9F689300C367FD /* Build configuration list for PBXNativeTarget "SwiftLA" */;
 			buildPhases = (
-				C2388EEA1C9F2E8E00156D3F /* Sources */,
-				C2388EEB1C9F2E8E00156D3F /* Frameworks */,
-				C2388EEC1C9F2E8E00156D3F /* Resources */,
+				C2911A291C9F689300C367FD /* Sources */,
+				C2911A2A1C9F689300C367FD /* Frameworks */,
+				C2911A2B1C9F689300C367FD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -63,42 +63,42 @@
 			);
 			name = SwiftLA;
 			productName = SwiftLA;
-			productReference = C2388EEE1C9F2E8E00156D3F /* SwiftLA.xctest */;
+			productReference = C2911A2D1C9F689300C367FD /* SwiftLA.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2388EE41C9F2DF800156D3F /* Project object */ = {
+		C2911A231C9F688700C367FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
-					C2388EED1C9F2E8E00156D3F = {
+					C2911A2C1C9F689300C367FD = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = C2388EE71C9F2DF800156D3F /* Build configuration list for PBXProject "SwiftLA" */;
+			buildConfigurationList = C2911A261C9F688700C367FD /* Build configuration list for PBXProject "SwiftLA" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C2388EE31C9F2DF800156D3F;
-			productRefGroup = C2388EEF1C9F2E8E00156D3F /* Products */;
+			mainGroup = C2911A221C9F688700C367FD;
+			productRefGroup = C2911A2E1C9F689300C367FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2388EED1C9F2E8E00156D3F /* SwiftLA */,
+				C2911A2C1C9F689300C367FD /* SwiftLA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2388EEC1C9F2E8E00156D3F /* Resources */ = {
+		C2911A2B1C9F689300C367FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,7 +108,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2388EEA1C9F2E8E00156D3F /* Sources */ = {
+		C2911A291C9F689300C367FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,19 +118,19 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C2388EE81C9F2DF800156D3F /* Debug */ = {
+		C2911A271C9F688700C367FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		C2388EE91C9F2DF800156D3F /* Release */ = {
+		C2911A281C9F688700C367FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		C2388EF41C9F2E8E00156D3F /* Debug */ = {
+		C2911A341C9F689300C367FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		C2388EF51C9F2E8E00156D3F /* Release */ = {
+		C2911A351C9F689300C367FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,24 +225,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2388EE71C9F2DF800156D3F /* Build configuration list for PBXProject "SwiftLA" */ = {
+		C2911A261C9F688700C367FD /* Build configuration list for PBXProject "SwiftLA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2388EE81C9F2DF800156D3F /* Debug */,
-				C2388EE91C9F2DF800156D3F /* Release */,
+				C2911A271C9F688700C367FD /* Debug */,
+				C2911A281C9F688700C367FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2388EF61C9F2E8E00156D3F /* Build configuration list for PBXNativeTarget "SwiftLA" */ = {
+		C2911A331C9F689300C367FD /* Build configuration list for PBXNativeTarget "SwiftLA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2388EF41C9F2E8E00156D3F /* Debug */,
-				C2388EF51C9F2E8E00156D3F /* Release */,
+				C2911A341C9F689300C367FD /* Debug */,
+				C2911A351C9F689300C367FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C2388EE41C9F2DF800156D3F /* Project object */;
+	rootObject = C2911A231C9F688700C367FD /* Project object */;
 }
