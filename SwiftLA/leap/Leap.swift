@@ -8,71 +8,78 @@
 
 import Foundation
 
-//Write a program that will take a year and report if it is a leap year.
-//
-//The tricky thing here is that a leap year in the Gregorian calendar occurs:
-//
-//```plain
-//```
-//
-//For example, 1997 is not a leap year, but 1996 is.  1900 is not a leap
-//year, but 2000 is.
+/* ===================================================== */
 
-//struct A {
+/*
+ This exmple demonstrates how Struct is constructed with:
+    - The system default initializer
+    - Custom overriden initialize
+*/
+// struct A {
 //
-//    var a = 1
-//    var b = 2
+//     var a = 1
+//     var b = 2
 //
-//    init(a: Int = 3) {
-//        self.a = a
-//        self.b = a * 3
-//    }
-//}
+//     init(a: Int = 3) {
+//         self.a = a
+//         self.b = a * 3
+//     }
+// }
 //
-//    func doSth() {
-//        let a = A()
-//    }
+// func doSth() {
+//     let a = A()
+// }
 
-/* First approach
+/* ===================================================== */
+
+/* First approach */
+
+// struct Year {
+//
+//     let calendarYear: Int
+//
+//     var isLeapYear: Bool = false
+//
+//     init(calendarYear: Int) {
+//         self.calendarYear = calendarYear
+//         self.isLeapYear = true
+//     }
+// }
+
+/* ===================================================== */
+
+/* Second approach */
+// struct Year {
+//
+//     var isLeapYear: Bool = false
+//
+//     init(calendarYear: Int) {
+//         self.isLeapYear = true
+//     }
+// }
+
+/* ===================================================== */
+
+/* Final solution */
 struct Year {
 
     let calendarYear: Int
 
-    var isLeapYear: Bool = false
+    /* Stored property vs Computed Property */
 
-    init(calendarYear: Int) {
-        self.calendarYear = calendarYear
-        self.isLeapYear = true
-    }
-}
-*/
+    // var isLeapYear: Bool {
+    //     let isEvenlyDivisibleBy4 = (calendarYear % 4) == 0
+    //     let isEvenlyDivisibleBy100 = (calendarYear % 100) != 0
+    //     return (isEvenlyDivisibleBy4 && isEvenlyDivisibleBy100) || ((calendarYear % 400) == 0)
+    // }
 
-/* Second approach
-struct Year {
-
-    var isLeapYear: Bool = false
-
-    init(calendarYear: Int) {
-        self.isLeapYear = true
-    }
-}
-*/
-
-//on every year that is evenly divisible by 4
-//except every year that is evenly divisible by 100
-//unless the year is also evenly divisible by 400
-
-struct Year {
-
-    let calendarYear: Int
-
-//    var isLeapYear: Bool {
-//        let isEvenlyDivisibleBy4 = (calendarYear % 4) == 0
-//        let isEvenlyDivisibleBy100 = (calendarYear % 100) != 0
-//        return (isEvenlyDivisibleBy4 && isEvenlyDivisibleBy100) || ((calendarYear % 400) == 0)
-//    }
-
+    /*
+     This approach is quite unreadable, and required detailed comments; but it's the FUNCTIONAL approach.
+     We create a closure, and pass in the `calendarYear` value to execute the closure
+    */
     var isLeapYear: Bool {
         return { ($0 % 4 == 0) && ($0 % 100 != 0) || ($0 % 400 == 0) }(calendarYear)
     }
 }
+
+/* ===================================================== */

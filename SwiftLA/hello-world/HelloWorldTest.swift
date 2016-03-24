@@ -1,6 +1,12 @@
+//
+//  HelloWorld.swift
+//  SwiftLA
+//
+//  Created by Hai Nguyen on 3/23/16.
+//
+//
+
 import XCTest
-
-
 
 class  HelloWorldTest: XCTestCase {
     

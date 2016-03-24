@@ -1,6 +1,12 @@
+//
+//  Leap.swift
+//  SwiftLA
+//
+//  Created by Hai Nguyen on 3/23/16.
+//
+//
+
 import XCTest
-
-
 
 class LeapTest : XCTestCase {
 
@@ -24,14 +30,17 @@ class LeapTest : XCTestCase {
 	  XCTAssertTrue(year.isLeapYear)
 	}
 
-    func testWeirdCase() {
+    func testDoubtCases() {
         let year1 = Year(calendarYear: 2000)
-        let year2 = Year(calendarYear: 0)
-        let year3 = Year(calendarYear: 1800)
-        let year4 = Year(calendarYear: -4)
         XCTAssertTrue(year1.isLeapYear)
+
+        let year2 = Year(calendarYear: 0)
         XCTAssertTrue(year2.isLeapYear)
+
+        let year3 = Year(calendarYear: 1800)
         XCTAssertFalse(year3.isLeapYear)
+
+        let year4 = Year(calendarYear: -4)
         XCTAssertTrue(year4.isLeapYear)
     }
 }
