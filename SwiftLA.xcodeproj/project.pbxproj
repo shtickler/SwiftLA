@@ -6,7 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C2590B511CA385B000E5D649 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C2590B501CA385B000E5D649 /* README.md */; };
+		C2590B541CA387F400E5D649 /* HelloWorldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2590B521CA3872600E5D649 /* HelloWorldTest.swift */; };
+		C2590B561CA3886400E5D649 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2590B551CA3886400E5D649 /* HelloWorld.swift */; };
+		C2590B5A1CA3907800E5D649 /* LeapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2590B581CA3907800E5D649 /* LeapTest.swift */; };
+		C2590B5B1CA3907800E5D649 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C2590B591CA3907800E5D649 /* README.md */; };
+		C2590B5D1CA390CD00E5D649 /* Leap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2590B5C1CA390CD00E5D649 /* Leap.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		C2590B501CA385B000E5D649 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "hello-world/README.md"; sourceTree = "<group>"; };
+		C2590B521CA3872600E5D649 /* HelloWorldTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelloWorldTest.swift; path = "hello-world/HelloWorldTest.swift"; sourceTree = "<group>"; };
+		C2590B551CA3886400E5D649 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelloWorld.swift; path = "hello-world/HelloWorld.swift"; sourceTree = "<group>"; };
+		C2590B581CA3907800E5D649 /* LeapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeapTest.swift; path = leap/LeapTest.swift; sourceTree = "<group>"; };
+		C2590B591CA3907800E5D649 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = leap/README.md; sourceTree = "<group>"; };
+		C2590B5C1CA390CD00E5D649 /* Leap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Leap.swift; path = leap/Leap.swift; sourceTree = "<group>"; };
 		C2911A2D1C9F689300C367FD /* SwiftLA.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLA.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2911A321C9F689300C367FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -22,6 +37,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2590B4F1CA3859D00E5D649 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				C2590B521CA3872600E5D649 /* HelloWorldTest.swift */,
+				C2590B551CA3886400E5D649 /* HelloWorld.swift */,
+				C2590B501CA385B000E5D649 /* README.md */,
+			);
+			name = HelloWorld;
+			sourceTree = "<group>";
+		};
+		C2590B571CA3906500E5D649 /* Leap */ = {
+			isa = PBXGroup;
+			children = (
+				C2590B5C1CA390CD00E5D649 /* Leap.swift */,
+				C2590B581CA3907800E5D649 /* LeapTest.swift */,
+				C2590B591CA3907800E5D649 /* README.md */,
+			);
+			name = Leap;
+			sourceTree = "<group>";
+		};
 		C2911A221C9F688700C367FD = {
 			isa = PBXGroup;
 			children = (
@@ -41,6 +76,8 @@
 		C2911A2F1C9F689300C367FD /* SwiftLA */ = {
 			isa = PBXGroup;
 			children = (
+				C2590B4F1CA3859D00E5D649 /* HelloWorld */,
+				C2590B571CA3906500E5D649 /* Leap */,
 				C2911A321C9F689300C367FD /* Info.plist */,
 			);
 			path = SwiftLA;
@@ -112,6 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2590B511CA385B000E5D649 /* README.md in Sources */,
+				C2590B561CA3886400E5D649 /* HelloWorld.swift in Sources */,
+				C2590B5B1CA3907800E5D649 /* README.md in Sources */,
+				C2590B5D1CA390CD00E5D649 /* Leap.swift in Sources */,
+				C2590B541CA387F400E5D649 /* HelloWorldTest.swift in Sources */,
+				C2590B5A1CA3907800E5D649 /* LeapTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
